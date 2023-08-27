@@ -1,0 +1,47 @@
+.main_container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.horizontal {
+    height: 60px;
+    width: 500px;
+}
+
+.vertical {
+    height: 500px;
+    width: 60px;
+}
+
+.horizontal,
+.vertical {
+    align-items: center;
+    background-color: #b8eded;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.container,
+.main_container {
+    align-items: center;
+    display: flex;
+}
+
+.main {
+    height: 500px;
+    width: 500px;
+}
+
+.box {
+    background-color: #b5dc36;
+    height: 50px;
+    position: relative;
+    width: 50px;
+}
+
+.cursor-not-allowed {
+    cursor: not-allowed;
+}
